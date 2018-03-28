@@ -1,0 +1,207 @@
+/*
+ Theme Name:    William walter
+ Theme URI:     https://xlicor.com
+ Description:   theme wordpress de wiliam walter
+ Author:        Koceila LOUNAS
+ Author URI:    https://xlicor.com
+ Template:      electro
+ Version:       1.4.20
+ License:       GNU General Public License v2 or later
+ License URI:   http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:   william-walter
+*/
+
+body{
+	background: #FDF5E8 !important;
+}
+.menu-logo-costum{
+	margin-top: 30px;
+	height: 130px;
+}
+.account-link {
+    font-size: 13px;
+    font-weight: bold;
+    color: #2e3b48;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+@media (max-width:993px){
+	.account-link{
+		display: none;
+	}
+	.navbar-mini-cart{
+		display: none;
+	}
+}
+.account-link:hover, .account-link:visited, .account-link:active {
+    font-size: 13px;
+    font-weight: bold;
+    color: #2e3b48;
+    text-transform: uppercase;
+}
+.col-panier{
+	margin-top: -7px;
+    float: left;
+    margin-left: -68px;
+}
+.nav-link{
+	color: #333D49;
+	font-weight: bold;
+}
+.nav-link:hover,.nav-link:visited, .nav-link:active{
+	color: #333D49;
+	font-weight: bold;
+}
+.dropdown-menu.dropdown-menu-mini-cart{
+	background-color: #FCF5E8;
+}
+.woocommerce-Button.button{
+	height: 60px;
+    line-height: 58px;
+    background-color: #2e3b48;
+    border: 2px solid #2e3b48;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0px !important;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.woocommerce-Button.button:hover{
+	 background-color: transparent !important;
+	 color: black !important;
+   	 border: 2px solid #2e3b48 !important;
+   	 border-radius: 0px !important;
+}
+ button{
+	border-radius: 0px !important;
+}
+.woocommerce-Button.button + .woocommerce-Button.button {
+  box-shadow: 0 0 0 1px #f26700;
+  outline:none;
+}
+.button.wc-forward{
+	margin-bottom: 10px !important;
+	border-radius: 0 !important;
+}
+/** cacher le logo**/
+div.header-logo{
+	display: none;
+}
+
+@media (max-width:769px){
+	div.header-logo{
+	display: none !important;
+}
+}
+
+/**Barre de navigation principal**/
+
+#menu-menu-principal{
+	text-align: center !important;
+	text-transform: uppercase;
+	display: table;
+	width: 100%;
+	/*padding-bottom: 20px;
+	border-bottom: 3px solid #2e3b48;*/
+	border-bottom: 4px solid #2e3b48;
+
+	
+}
+
+#menu-menu-principal li{
+	
+	display: table-cell;
+	padding-right: 70px;
+	
+	/*padding-bottom: 20px;
+	border-bottom: 3px solid #2e3b48;*/
+
+}
+#menu-menu-principal li a{
+	
+	padding-bottom: 20px;
+}
+#menu-menu-principal li a {
+    padding-bottom: 7px;
+}
+
+
+#menu-menu-principal li:last-child{
+	padding-right: 10px;
+}
+#menu-menu-principal li:hover{
+	
+}
+ul.dropdown-menu{
+	margin-top: 50px;
+}
+ul.dropdown-menu li{
+	border-bottom: none !important;
+}
+
+.img-logo {
+    height: 154px;
+    max-width: 100%;
+    display: block;
+}
+
+ #dropdown-menu li a{
+ 	background: transparent !important@;
+ }
+
+ .search-field{
+background: #373F4A !important;
+ color: white !important;
+height:15px
+
+}
+.search-submit{
+display:none !important;}
+
+
+/*****************************
+/**Page d'accueil*************/
+
+
+
+.image-principal{
+	height: 500px;
+}
+
+.block-text-accueil{
+	background-color: #333D49;
+	color: white;
+	margin-left: 50px;
+	min-height: 400px;
+}
+.accueil-contenu{
+	margin: 30px;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	padding-top: 38px;
+	padding-bottom: 38px;
+}
+.titre-accueil{
+	font-weight: bold;
+}
+.phrase-appel{
+	margin-top: 35px;
+}
+.lien{
+	font-size: 18px;
+	color: white;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.lien:hover{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
